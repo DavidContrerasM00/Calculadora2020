@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+html, body{
+    height: 100%;
+}
+body{
+    background-color: #a3ceba;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.calc{
+    background-color: #2e3951;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 300px;
+}
+.screenresult{
+    background-color: #212b41;
+    color: #37b3b7;
+    font-size: 70px;
+    padding: 40px 15px 15px;
+    text-align: right;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.btn{
+    background-color: #2e3951;
+    color: #96a8a0;
+    border-radius: 50%;
+    border:none;
+    width: 40px;
+    height: 35px;
+    font-size: 22px;
+    outline: 0;
+    cursor: pointer;
+}
+.btnclear{
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+}
+.btnop{
+    background-color: #212b41;
+    color: #37b3b7;
+}
+.btnequals{
+    background-color: #37b387;
+    color:#212b41;
+}
+.btn:active{
+    background-color: #313e5a;
+}
+.btnop:active{
+    background-color: #27324c;
+}
+.btnequals:active{
+    background-color: #41ca99;
+}
